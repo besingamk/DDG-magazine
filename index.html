@@ -11,6 +11,11 @@
 	<!-- for center default width addclass .centered_width on a container or div's --> 
 <div class="body">
 	
+	<div class="preloading">
+		<div class="preloading-carier">
+			<p>Page is loading <img src="images/301.GIF"></p>
+		</div>
+	</div>
 
 	<div class="header">
 		<div class="header-item centered_width">
@@ -210,7 +215,10 @@
 	// javascript code goes here
 
 	function loaded() {
-		alert("Page are fully loaded!");
+		
+		setTimeout(function() {
+			$('.preloading').fadeOut("slow");
+		}, 1000);
 	}
 
 	$(function() {
