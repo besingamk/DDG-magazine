@@ -110,14 +110,14 @@ body {
 }
 
 .preloading .preloading-carier {
-	width: 180px;
+	width: 200px;
 	height: 25px;
 	margin: 100px auto;
 }
 
 .preloading .preloading-carier p {
 	font-family: "Caviar";
-	font-size: 20px;
+	font-size: 22px;
 }
 
 .preloading .preloading-carier p img {
