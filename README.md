@@ -1,4 +1,4 @@
-DDG-magazine stagging site
+#[DDG-magazine stagging site] [![Build Status]Stagging]
 
 
 @TODO IE8 >= Compatibility
