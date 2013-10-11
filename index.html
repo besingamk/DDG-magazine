@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/lightbox.css">
 	</style>
 </head>
-<body>
+<body onload="loaded();">
 	<!-- for center default width addclass .centered_width on a container or div's --> 
 <div class="body">
 	
@@ -208,6 +208,11 @@
 <script type="text/javascript" src="assets/carousel.js"></script>
 <script type="text/javascript">
 	// javascript code goes here
+
+	function loaded() {
+		alert("Page are fully loaded!");
+	}
+
 	$(function() {
 
 		$('#whats-new-list-carousel').carouFredSel({
@@ -258,7 +263,7 @@
 			return false;
 		});
 
-		console.log($(window).width());
+		
 	});
 </script>
 </body>
