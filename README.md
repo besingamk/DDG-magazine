@@ -1,4 +1,4 @@
-#[DDG-magazine stagging site](http://besingamk.github.io/besingamk)
+#[DDG-magazine stagging site](http://besingamk.github.io/DDG-magazine/)
 
 @TODO IE8 >= Compatibility
 
