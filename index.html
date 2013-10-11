@@ -7,9 +7,16 @@
 	<link rel="stylesheet" type="text/css" href="assets/lightbox.css">
 	</style>
 </head>
-<body onload="onload();">
-
+<body onload="loaded();">
 	<!-- for center default width addclass .centered_width on a container or div's --> 
+<div class="body">
+	
+	<div class="preloading">
+		<div class="preloading-carier">
+			<p>Page is loading <img src="images/301.GIF"></p>
+		</div>
+	</div>
+
 	<div class="header">
 		<div class="header-item centered_width">
 			<div class="header-top-container">
@@ -199,6 +206,7 @@
 	<div class="footer centered_width">
 		<p>Philippine Copyright &copy; 2012 by DDG Inc. All rights reserved. Powered by <a href="">Digi Marketing Inc.</a></p>
 	</div>
+</div>
 
 <script type="text/javascript" src="assets/jquery.js"></script>
 <script type="text/javascript" src="assets/lightbox.js"></script>
@@ -206,9 +214,13 @@
 <script type="text/javascript">
 	// javascript code goes here
 
-	function onload() {
-		alert("Page is loadded!");
+	function loaded() {
+		
+		setTimeout(function() {
+			$('.preloading').fadeOut("slow");
+		}, 1000);
 	}
+
 	$(function() {
 
 		$('#whats-new-list-carousel').carouFredSel({
@@ -259,7 +271,7 @@
 			return false;
 		});
 
-		console.log($(window).width());
+		
 	});
 </script>
 </body>
