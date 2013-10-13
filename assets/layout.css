@@ -378,6 +378,19 @@ right side bar width = 200px
 	margin-right: 15px;
 }
 
+
+
+
+
+
+/***********************************************************
+
+Main Container*/
+
+
+
+
+
 .container .main-container {
 	width: 550px;
 	float: left;
@@ -577,6 +590,26 @@ right side bar width = 200px
 	padding: 10px 0;
 	font-style: italic;
 }
+
+.container .category h1 {
+	font-family: "GeorgiaFont";
+	font-size: 25px;
+	font-weight: bold;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.container .category hr.dashed {
+	border: 0;
+	height: 0;
+	border-top: 1px dashed rgba(0, 0, 0, 0.1);
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/*******************************************
+End of container*/
 
 .container .right-side-bar {
 	width: 200px;
