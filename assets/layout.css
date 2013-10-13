@@ -658,8 +658,12 @@ the_post*/
 
 .pagi a {
 	text-decoration: none;
-	color: #5c8aa1;
+	color: #89cbec;
 	font-weight: bold;
+}
+
+.pagi a:hover{
+	color: #5c8aa1;
 }
 
 .pagi a.active {
