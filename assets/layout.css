@@ -591,11 +591,14 @@ Main Container*/
 	font-style: italic;
 }
 
+/* ********************************
+the_post*/
+
 .container .category h1 {
-	font-family: "GeorgiaFont";
+	font-family: "Caviar", sans-serif;
+	color: #5c8aa1;
 	font-size: 25px;
 	font-weight: bold;
-	color: #000;
 	text-transform: uppercase;
 }
 
@@ -608,19 +611,65 @@ Main Container*/
 	margin-right: 15px;
 }
 
-.container .category .the_post {
-	padding: 5px;
+.container .category .the_post_url {
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
 }
 
-.container .category .the_post .post_image {
-	width: 75px;
-	height: 88px;
+.container .category .item {
+	border: 1px #e2e2e2 solid;
+	border-bottom: none;
+}
+
+.container .category .the_post_url .the_post {
+	padding: 15px 5px;
+	margin: 0;
+	border-bottom: 1px #e2e2e2 solid
+}
+
+.container .category .the_post_url .the_post:hover {
+	/*background: pink;*/
+	background: #89cbec;
+}
+
+.container .category .the_post_url .the_post img {
+	background: #fff;
 	float: left;
+	width: 50px;
+	padding: 5px 5px;
+	margin-right: 4px;
+	border: 1px #e2e2e2 solid;
 }
 
-.container .category .the_post .post_image img {
-	width: 75px;
-	height: 88px;
+.container .category .the_post_url .the_post h2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #000;
+}
+
+.container .category .the_post_url .the_post p {
+	color: #444;
+}
+
+.container .category .the_post_url .the_post p.author {
+	font-style: italic;
+}
+
+.pagi a {
+	text-decoration: none;
+	color: #5c8aa1;
+	font-weight: bold;
+}
+
+.pagi a.active {
+	color: #444;
+}
+
+.pagi {
+	font-family: "GeorgiaFont";
+	font-style: italic;
+	color: #5c8aa1;
 }
 
 /*******************************************
