@@ -608,6 +608,21 @@ Main Container*/
 	margin-right: 15px;
 }
 
+.container .category .the_post {
+	padding: 5px;
+}
+
+.container .category .the_post .post_image {
+	width: 75px;
+	height: 88px;
+	float: left;
+}
+
+.container .category .the_post .post_image img {
+	width: 75px;
+	height: 88px;
+}
+
 /*******************************************
 End of container*/
 
